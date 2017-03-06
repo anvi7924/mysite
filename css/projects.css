@@ -1,0 +1,33 @@
+
+.underlined {
+    border-bottom-width: 3px;
+    padding-bottom: 8px!important;
+    border-bottom: 4px solid #9fbff2;
+    display: inline-block;
+    margin-bottom: 20px!important;
+}
+h4 {
+    font-family: proxima-nova,Helvetica,Arial,sans-serif;
+    letter-spacing: .05em;
+    text-transform: uppercase;
+    font-weight: 600;
+    font-size: 22px;
+    line-height: 1.5em;
+    margin-top: 10px;
+    padding-bottom: 20px;
+}
+
+div.box-item {
+	border: 1px solid black;
+	max-height: 100%;
+	max-width: 50%;
+	text-decoration: none;
+}
+h5 {
+	font-family: Elena,Georgia,serif
+}
+a {
+	color: #000000;
+	text-decoration: none;
+	font-family: Elena,Georgia,serif
+}

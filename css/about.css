@@ -1,0 +1,25 @@
+
+.box{ 
+	width:100%;
+	height:100px;
+	position: relative;
+}
+.blue {
+	background:#9FC7DF;
+}
+.header {
+	max-height: 100%
+	max-width: 100%;
+}
+.paragraph {
+	top: 50;
+	width:50%;
+	height:25%;
+}
+
+
+
+
+
+
+
