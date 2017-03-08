@@ -1,8 +1,10 @@
-
+html {
+  background-color: #E9E9E9;
+}
 .underlined {
     border-bottom-width: 3px;
     padding-bottom: 8px!important;
-    border-bottom: 4px solid #9fbff2;
+    border-bottom: 4px solid #88BBD6;
     display: inline-block;
     margin-bottom: 20px!important;
 }
@@ -26,8 +28,41 @@ div.box-item {
 h5 {
 	font-family: Elena,Georgia,serif
 }
-a {
+.box-item p {
 	color: #000000;
 	text-decoration: none;
 	font-family: Elena,Georgia,serif
+}
+.box-item a {
+    color: #000000;
+    text-decoration: none;
+    font-family: Elena,Georgia,serif
+}
+.homelink a {
+ color: #88BBD6;
+ font-family: Elena,Georgia,serif;
+}
+a:hover {
+    color: #88BBD6;
+}
+.cslearn:hover {
+    transition: all .2s ease-in-out;
+    transform: scale(1.1);  
+}
+.startupsummer:hover {
+    transition: all .2s ease-in-out;
+    transform: scale(1.1);  
+}
+.seproject:hover {
+    transition: all .2s ease-in-out;
+    transform: scale(1.1);  
+}
+.clocksync:hover {
+    transition: all .2s ease-in-out;
+    transform: scale(1.1);  
+}
+.knearest:hover {
+    color: #88BBD6;
+    transition: all .2s ease-in-out;
+    transform: scale(1.1);  
 }

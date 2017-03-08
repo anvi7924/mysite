@@ -1,5 +1,5 @@
 html {
-  background-color: #C0C0C0;
+  background-color: #CDCDCD;
 }
 img {
     max-width: 100%;
@@ -67,8 +67,6 @@ img {
 	-moz-transform: scale(1.3);
 	transform: scale(1.3);
 }
-
-
 .photo-grid figcaption p {
 	display: table-cell;
 	font-size: 1.5em;

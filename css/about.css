@@ -1,22 +1,94 @@
-
+html {
+	background-color: #E9E9E9;
+}
 .box{ 
+	top: 10;
 	width:100%;
 	height:100px;
 	position: relative;
 }
 .blue {
-	background:#9FC7DF;
+	background: #CAEBF2;
 }
-.header {
+.links {
 	max-height: 100%
 	max-width: 100%;
+	float: right;
+	margin-top: 5;
+}
+.home {
+  width: 100px;
+  height: 100px;
+  float: left;
+
+}
+.resume{
+  width: 100px;
+  height: 100px;
+  float: left;
+
+}
+.github {
+  width: 100px;
+  height: 100px;
+  float: left;
+}
+.linkedin {
+  width: 100px;
+  height: 100px;
+  float: left;
+}
+
+.home:hover {
+	transition: all .2s ease-in-out;
+	transform: scale(1.1);	
+}
+.resume:hover {
+	transition: all .2s ease-in-out;
+	transform: scale(1.1);	
+}
+.github:hover {
+	transition: all .2s ease-in-out;
+	transform: scale(1.1);	
+}
+.linkedin:hover {
+	transition: all .2s ease-in-out;
+	transform: scale(1.1);	
+}
+a {
+	padding: 0px 4px;
+	text-decoration: none;
+	color: #88BBD6;
 }
 .paragraph {
 	top: 50;
 	width:50%;
 	height:25%;
+	font-family: Elena,Georgia,serif
 }
-
+hr {
+	height: 1px;
+    background-color: #88BBD6
+}
+.img-circle {
+	margin-top: -10;
+	margin-left: 10;
+    border-radius: 50%;
+    max-height: 130%;
+    max-width: 150%;
+}
+.holycrosslink:hover {
+	transition: all .2s ease-in-out;
+	transform: scale(1.1);	
+}
+.cuboulderlink:hover {
+	transition: all .2s ease-in-out;
+	transform: scale(1.1);	
+}
+.augurlink:hover {
+	transition: all .2s ease-in-out;
+	transform: scale(1.1);	
+}
 
 
 

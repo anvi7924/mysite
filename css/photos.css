@@ -4,9 +4,13 @@ margin:0;
 padding:0;
 }
 body {
-background-color:#bababa;
+background-color:#E9E9E9
 color:#fff;
-font:14px/1.3 Arial,sans-serif;
+}
+a {
+ color: #88BBD6;
+ font-family: Elena,Georgia,serif;
+ margin-left: 50;
 }
 footer {
 background-color:#212121;
@@ -47,7 +51,7 @@ font-weight:bold;
 margin-left:5px;
 }
 .container {
-background:#ddd;
+background:#CDCDCD;
 margin:20px auto;
 padding:20px;
 position:relative;
@@ -148,3 +152,25 @@ z-index:30;
 .gallery a:focus ~ .close {
 display:block;
 }
+.homelink {
+	right: 10;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

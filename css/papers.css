@@ -1,7 +1,10 @@
+html {
+  background-color: #E9E9E9;
+}
 .underlined {
     border-bottom-width: 3px;
     padding-bottom: 8px!important;
-    border-bottom: 4px solid #9fbff2;
+    border-bottom: 4px solid #88BBD6;
     display: inline-block;
     margin-bottom: 20px!important;
 }
@@ -22,7 +25,7 @@ h4 {
     text-align: center;
 }
 .photo-grid figure {
-    box-shadow: 2px 2px 2px #DDDADA;
+    box-shadow: 5px 5px 5px #CAEBF2;
     height: 325px;
     overflow: hidden;
     position: relative;
@@ -78,4 +81,8 @@ h4 {
 }
 .photo-grid li:hover figcaption {
     opacity: 1;
+}
+.homelink a {
+ color: #88BBD6;
+ font-family: Elena,Georgia,serif;
 }
