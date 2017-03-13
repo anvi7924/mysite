@@ -10,7 +10,6 @@ color:#fff;
 a {
  color: #88BBD6;
  font-family: Elena,Georgia,serif;
- margin-left: 50;
 }
 footer {
 background-color:#212121;
@@ -51,7 +50,7 @@ font-weight:bold;
 margin-left:5px;
 }
 .container {
-background:#CDCDCD;
+background:#E9E9E9;
 margin:20px auto;
 padding:20px;
 position:relative;
@@ -155,7 +154,23 @@ display:block;
 .homelink {
 	right: 10;
 }
-
+.underlined {
+    border-bottom-width: 3px;
+    padding-bottom: 8px!important;
+    border-bottom: 4px solid #88BBD6;
+    display: inline-block;
+    margin-bottom: 20px!important;
+}
+h4 {
+    font-family: proxima-nova,Helvetica,Arial,sans-serif;
+    letter-spacing: .05em;
+    text-transform: uppercase;
+    font-weight: 600;
+    font-size: 22px;
+    line-height: 1.5em;
+    margin-top: 10px;
+    padding-bottom: 20px;
+}
 
 
 

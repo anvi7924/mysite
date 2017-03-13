@@ -18,11 +18,15 @@ h4 {
     margin-top: 10px;
     padding-bottom: 20px;
 }
-
+ hr {
+    height: 1px;
+    width: 100%;
+    background-color: #000000
+}
 div.box-item {
-	border: 1px solid black;
+
 	max-height: 100%;
-	max-width: 50%;
+	max-width: 100%;
 	text-decoration: none;
 }
 h5 {
@@ -65,4 +69,17 @@ a:hover {
     color: #88BBD6;
     transition: all .2s ease-in-out;
     transform: scale(1.1);  
+}
+.container {
+background:#E9E9E9;
+margin:20px auto;
+padding:20px;
+position:relative;
+width:700px;
+border-radius:5px;
+-moz-border-radius:5px;
+-webkit-border-radius:5px;
+box-shadow:1px 1px 5px #111;
+-moz-box-shadow:1px 1px 5px #111;
+-webkit-box-shadow:1px 1px 5px #111;
 }

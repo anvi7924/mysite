@@ -8,7 +8,7 @@ html {
 	position: relative;
 }
 .blue {
-	background: #CAEBF2;
+	background: #88BBD6;
 }
 .links {
 	max-height: 100%
@@ -55,7 +55,18 @@ html {
 	transition: all .2s ease-in-out;
 	transform: scale(1.1);	
 }
-a {
+.links a {
+	padding: 0px 4px;
+	text-decoration: none;
+	color: #000000;
+	font-weight: bold;
+}
+.education a{
+	padding: 0px 4px;
+	text-decoration: none;
+	color: #88BBD6;
+}
+.work a {
 	padding: 0px 4px;
 	text-decoration: none;
 	color: #88BBD6;
@@ -68,7 +79,7 @@ a {
 }
 hr {
 	height: 1px;
-    background-color: #88BBD6
+    background-color: #000000
 }
 .img-circle {
 	margin-top: -10;
